@@ -1,0 +1,12 @@
+python 3.12.3
+os Linux-6.8.0-137-generic-x86_64-with-glibc2.39
+cpu_count 48
+numpy 2.5.2
+pandas 3.0.5
+scipy 1.18.0
+scikit-learn 1.9.0
+xgboost 3.4.0
+lightgbm 4.7.0
+pyarrow 25.0.1
+matplotlib 3.11.1
+ram_gb 31

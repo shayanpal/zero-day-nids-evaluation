@@ -1,0 +1,9 @@
+[
+  "Destination Port",
+  "Fwd IAT Max",
+  "Fwd IAT Min",
+  "Fwd Packets/s",
+  "Packet Length Mean",
+  "Init_Win_bytes_forward",
+  "Init_Win_bytes_backward"
+]

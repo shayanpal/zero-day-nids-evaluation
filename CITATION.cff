@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper."
+title: "How Much Do Evaluation Choices Inflate Zero-Day Intrusion Detection? (code and results)"
+authors:
+  - family-names: Kheirabadi
+    given-names: Shayan
+    affiliation: "K. N. Toosi University of Technology"
+license: MIT
+repository-code: "https://github.com/shayanpal/zero-day-nids-evaluation"

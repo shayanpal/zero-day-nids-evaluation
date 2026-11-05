@@ -1,0 +1,25 @@
+dataset,comparison,A,B,delta,ci95,p_t,p_wilcoxon,n_seeds,n_units,seeds_positive,p_t_holm
+cic2017,"CASCADE - ENS (unseen, det_fpr1)",0.442,0.464,-0.022,0.011,0.0045,1.2e-05,5,30.0,0.0,0.009
+cic2017,"CASCADE - ENS (unseen, det_fpr01)",0.151,0.318,-0.167,0.126,0.021,2.7e-05,5,30.0,0.0,0.021
+cic2017,rare Heartbleed: IF,1.0,,,0.0,,,5,,,
+cic2017,rare Heartbleed: ENS,0.279,,,0.231,,,5,,,
+cic2017,rare Heartbleed: CASCADE,0.976,,,0.049,,,5,,,
+cic2017,rare Infiltration: IF,0.294,,,0.09,,,5,,,
+cic2017,rare Infiltration: ENS,0.248,,,0.065,,,5,,,
+cic2017,rare Infiltration: CASCADE,0.277,,,0.073,,,5,,,
+cic2018,"CASCADE - ENS (unseen, det_fpr1)",0.506,0.571,-0.065,0.121,0.21,0.00016,5,25.0,1.0,0.21
+cic2018,"CASCADE - ENS (unseen, det_fpr01)",0.124,0.192,-0.068,0.043,0.012,0.00029,5,25.0,0.0,0.023
+cic2018,rare Infiltration: IF,0.015,,,0.002,,,5,,,
+cic2018,rare Infiltration: ENS,0.028,,,0.003,,,5,,,
+cic2018,rare Infiltration: CASCADE,0.019,,,0.003,,,5,,,
+cic2017i,"CASCADE - ENS (unseen, det_fpr1)",0.597,0.771,-0.174,0.111,0.012,3e-05,5,30.0,0.0,0.012
+cic2017i,"CASCADE - ENS (unseen, det_fpr01)",0.252,0.302,-0.051,0.02,0.0021,0.0015,5,30.0,0.0,0.0042
+cic2017i,rare Heartbleed: IF,1.0,,,0.0,,,5,,,
+cic2017i,rare Heartbleed: ENS,1.0,,,0.0,,,5,,,
+cic2017i,rare Heartbleed: CASCADE,1.0,,,0.0,,,5,,,
+cic2017i,rare InfilPortscan: IF,0.0,,,0.0,,,5,,,
+cic2017i,rare InfilPortscan: ENS,0.897,,,0.066,,,5,,,
+cic2017i,rare InfilPortscan: CASCADE,0.858,,,0.051,,,5,,,
+cic2017i,rare Infiltration: IF,0.528,,,0.034,,,5,,,
+cic2017i,rare Infiltration: ENS,0.889,,,0.036,,,5,,,
+cic2017i,rare Infiltration: CASCADE,0.902,,,0.038,,,5,,,

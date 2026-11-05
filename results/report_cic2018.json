@@ -1,0 +1,115 @@
+{
+  "raw_rows": 16233002,
+  "header_rows_removed": 59,
+  "nan_inf_rows_removed": 95760,
+  "per_file": {
+    "Friday-02-03-2018.csv": {
+      "raw": 1048575,
+      "after_chunk_dedup": 834976
+    },
+    "Friday-16-02-2018.csv": {
+      "raw": 1048575,
+      "after_chunk_dedup": 629944
+    },
+    "Friday-23-02-2018.csv": {
+      "raw": 1048575,
+      "after_chunk_dedup": 932919
+    },
+    "Thuesday-20-02-2018.csv": {
+      "raw": 7948748,
+      "after_chunk_dedup": 6840694
+    },
+    "Thursday-01-03-2018.csv": {
+      "raw": 331125,
+      "after_chunk_dedup": 287930
+    },
+    "Thursday-15-02-2018.csv": {
+      "raw": 1048575,
+      "after_chunk_dedup": 910016
+    },
+    "Thursday-22-02-2018.csv": {
+      "raw": 1048575,
+      "after_chunk_dedup": 930588
+    },
+    "Wednesday-14-02-2018.csv": {
+      "raw": 1048575,
+      "after_chunk_dedup": 686629
+    },
+    "Wednesday-21-02-2018.csv": {
+      "raw": 1048575,
+      "after_chunk_dedup": 588676
+    },
+    "Wednesday-28-02-2018.csv": {
+      "raw": 613104,
+      "after_chunk_dedup": 459041
+    }
+  },
+  "conflict_vectors": 67574,
+  "conflict_rows_removed": 433804,
+  "conflict_rows_by_label": {
+    "Benign": 360106,
+    "Infilteration": 73515,
+    "DoS attacks-SlowHTTPTest": 102,
+    "FTP-BruteForce": 52,
+    "Brute Force -Web": 12,
+    "SQL Injection": 8,
+    "SSH-Bruteforce": 7,
+    "Brute Force -XSS": 2
+  },
+  "global_duplicates_removed": 1356810,
+  "unique_rows": 11310799,
+  "constant_columns_removed": [
+    "Bwd PSH Flags",
+    "Bwd URG Flags",
+    "Fwd Byts/b Avg",
+    "Fwd Pkts/b Avg",
+    "Fwd Blk Rate Avg",
+    "Bwd Byts/b Avg",
+    "Bwd Pkts/b Avg",
+    "Bwd Blk Rate Avg"
+  ],
+  "n_features": 70,
+  "unique_per_label": {
+    "Benign": 10027636,
+    "DDoS attacks-LOIC-HTTP": 575012,
+    "DDOS attack-HOIC": 198861,
+    "DoS attacks-Hulk": 145199,
+    "Bot": 144535,
+    "SSH-Bruteforce": 94041,
+    "Infilteration": 71831,
+    "DoS attacks-GoldenEye": 41392,
+    "DoS attacks-Slowloris": 9712,
+    "DDOS attack-LOIC-UDP": 1730,
+    "Brute Force -Web": 543,
+    "Brute Force -XSS": 226,
+    "SQL Injection": 77,
+    "DoS attacks-SlowHTTPTest": 3,
+    "FTP-BruteForce": 1
+  },
+  "unique_per_family": {
+    "Benign": 10027636,
+    "DDoS": 775603,
+    "DoS": 196306,
+    "Botnet": 144535,
+    "BruteForce": 94042,
+    "Infiltration": 71831,
+    "WebAttack": 846
+  },
+  "single_column_top15": {
+    "Bwd Pkt Len Max": 0.6,
+    "Pkt Len Max": 0.5949,
+    "Bwd Pkt Len Mean": 0.5935,
+    "Bwd Seg Size Avg": 0.5935,
+    "Bwd Pkt Len Std": 0.59,
+    "TotLen Fwd Pkts": 0.5857,
+    "Subflow Fwd Byts": 0.5857,
+    "TotLen Bwd Pkts": 0.5546,
+    "Subflow Bwd Byts": 0.5546,
+    "Pkt Len Std": 0.5531,
+    "Pkt Len Var": 0.5531,
+    "Fwd Pkt Len Max": 0.5187,
+    "Fwd Pkt Len Std": 0.4983,
+    "Init Fwd Win Byts": 0.4687,
+    "Pkt Len Mean": 0.4674
+  }
+}
